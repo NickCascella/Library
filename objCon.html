@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div id='top'>
+        <h1 id='title'>Library</h1>
+        <button class='buttons' id='btn'>Add new</button>
+        <button class='buttons' id='clear'>Clear</button>
+    </div>
+    <body>
+       <div id='fill'></div>
+    </body>
+
+    <div class='modal'>
+        <div class='modal-child'>
+            <div id="close">+</div>
+            
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/1200px-Question_book-new.svg.png" alt="">
+            
+            <form id='form'>
+                    <input type="text" id='name' name='name' placeholder='Name of book' required> 
+
+                    <input type="text" id='author' name='author' placeholder='Name of author' required> 
+           
+                    <input type="number" id='pages' name='pages' placeholder='Number of pages' required> 
+
+                    <div class='checkbox'>
+                        <label for="read">Read</label>
+                        <input type="radio" id="read" name="read" value="Read">
+                        <label for="not-read">Not Read</label>
+                        <input type="radio" id="not-read" name="read" value="Not Read">
+                    </div>
+
+                    <input type="submit" id='submit' value='Add Book'>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src='objCon.js'></script>
+<link rel='stylesheet' href='objCon.css'>
+
